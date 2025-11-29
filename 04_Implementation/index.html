@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8" />
+<title>Simple Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="calculator">
+    <input id="display" class="display" type="text" value="0" readonly />
+
+    <div class="keys">
+
+
+    <button class="btn ac" data-action="clear">AC</button>
+    <button class="btn" data-action="backspace">⌫</button>
+    <button class="btn operator" data-expression="/">÷</button>
+    <button class="btn operator" data-expression="*">×</button>
+
+
+    <button class="btn" data-expression="7">7</button>
+    <button class="btn" data-expression="8">8</button>
+    <button class="btn" data-expression="9">9</button>
+    <button class="btn operator" data-expression="-">−</button>
+
+    <button class="btn" data-expression="4">4</button>
+    <button class="btn" data-expression="5">5</button>
+    <button class="btn" data-expression="6">6</button>
+    <button class="btn operator" data-expression="+">+</button>
+
+    <button class="btn" data-expression="1">1</button>
+    <button class="btn" data-expression="2">2</button>
+    <button class="btn" data-expression="3">3</button>
+    <button class="btn" data-expression=".">.</button>
+
+    <button class="btn span-2" data-expression="0">0</button>
+    <button class="btn equals span-2" data-action="equals">=</button>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
