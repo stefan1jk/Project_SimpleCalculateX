@@ -24,6 +24,8 @@ Project_SimpleCalculateX/
 
 ## GitHub Public Repository Link
 
+https://github.com/stefan1jk/Project_SimpleCalculateX/tree/main/01_Requirements
+
 
 ## Made By
 สเตฟาน ลิวิโอ ตาเบีย 1670702842
